@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convite de Aniversário</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="images/envelope.png">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.scss">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+
+</head>
+<body>
+    <header class="hero">
+        <div class="container">
+            <img class="hero__logo" src="./images/logostarwars.png" alt="EBAC">
+            <p class="hero__text">
+                Você foi covidado para o meu aniversário! começa em: <span id="contador"></span>
+            </p>
+            <div class="infos-bar">
+                <ul class="infos-bar__infos">
+                    <li class="infos-bar__infos__item">
+                        <b>Localização</b>
+                        Walt Disney World Resort - Flórida, EUA
+                    </li>
+                    <li class="infos-bar__infos__item">
+                        <b>Preço</b>
+                        A partir de US$ 96,00
+                    </li>
+                    <li class="infos-bar__infos__item">
+                        <b>Quando</b>
+                        23/09/2024 às 19hrs
+                    </li>
+                </ul>
+                <a href="#" class="button button--primary">
+                    Aceitar convite
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <section class="event event--frontend">
+        <div class="container" data-aos="fade-right">
+            <div class="event__details">
+                <h2 class="event__details__title">Galaxy’s Edge</h2>
+                <p class="event__details__description">
+                    A festa será realizada em Star Wars! Galaxy’s Edge é a maior e mais avançada expansão de uma área com tema único já visto em um parque Disney. E o local é extremamente imersivo e riquíssimo em detalhes. Quem é fã da saga irá enlouquecer vendo todas as atrações, lojas e restaurantes do local.
+                </p>
+            </div>
+            <img class="event__image" src="./images/millenniumfalcon.jpg" alt="Front-end">
+        </div>
+    </section>
+    <section class="event event--ui-ux event--image-left">
+        <div class="container" data-aos="fade-left">
+            <div class="event__details">
+                <h2 class="event__details__title">Oga's Cantina no Walt Disney World Resort</h2>
+                <p class="event__details__description">
+                    Refeições localizada no
+Star Wars: Galaxy's Edge. Vamos brindar com bebidas exclusivas para todas as idades.
+                </p>
+            </div>
+            <img class="event__image" src="./images/restaurante.png" alt="UI/UX">
+        </div>
+    </section>
+    <section class="event event--data-science">
+        <div class="container" data-aos="fade-right">
+            <div class="event__details">
+                <h2 class="event__details__title">Ronto Roasters</h2>
+                <p class="event__details__description">
+                    Afunde os dentes em uma saborosa linguiça grelhada e em um wrap de porco assado na barraca de carne exótica.
+                </p>
+            </div>
+            <img class="event__image" src="./images/ronto-roasters.png" alt="Data Science">
+        </div>
+    </section>
+    <section class="event event--backend event--image-left">
+        <div class="container" data-aos="fade-left"> 
+            <div class="event__details">
+                <h2 class="event__details__title">Monte seu Sabre de Luz!</h2>
+                <p class="event__details__description">
+                    Montar seu sabre de luz é uma experiência completamente imersiva. Você precisará da ajuda dos orientadores dos coletores místicos para construir seu sabre de luz e trazê-lo à vida por meio do poder do cristal Kyber.
+                </p>
+            </div>
+            <img class="event__image" src="./images/sabredeluz.png" alt="Back-end">
+        </div>
+    </section>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="scripts/main.js"></script>
+</body>
+</html>
